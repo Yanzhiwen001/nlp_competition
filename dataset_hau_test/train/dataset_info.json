@@ -1,0 +1,49 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 7638,
+  "description": "",
+  "download_checksums": {
+    "D:\\CMU\\nlp_competition\\images_test_hau.csv": {
+      "num_bytes": 7148,
+      "checksum": "7d20c3cf694585285238bdd592bdd86246ff5dad5abe252a4b1e3e7e6ade5a1f"
+    }
+  },
+  "download_size": 7148,
+  "features": {
+    "Id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ImageURL": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ISO639-3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_path": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 14786,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 7638,
+      "num_examples": 64,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

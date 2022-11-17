@@ -1,0 +1,49 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 13366,
+  "description": "",
+  "download_checksums": {
+    "D:\\CMU\\nlp_competition\\images_test_kir.csv": {
+      "num_bytes": 12852,
+      "checksum": "b87ef30cba9ccd001f7f71eae20b597d71799cfd3e4c00933d5fb55a24fcf752"
+    }
+  },
+  "download_size": 12852,
+  "features": {
+    "Id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ImageURL": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ISO639-3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_path": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26218,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 13366,
+      "num_examples": 67,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
