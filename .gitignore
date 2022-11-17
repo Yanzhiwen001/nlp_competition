@@ -1,7 +1,13 @@
 dataset_hau
 dataset_kir
 dataset_tha
+
 dataset_test
+dataset_hau_test
+dataset_kir_test
+dataset_tha_test
+
+
 images_hau
 images_test
 images_kir
