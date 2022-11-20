@@ -1,0 +1,85 @@
+{
+  "builder_name": "bloom-captioning",
+  "citation": "",
+  "config_name": "tha",
+  "dataset_size": 2180026,
+  "description": "",
+  "download_checksums": {
+    "https://bloom-vist.s3.amazonaws.com/bloom_vist_june15_deduped_june21_langfiltered_june22_with_storylets_licenseupdated.json": {
+      "num_bytes": 176456247,
+      "checksum": "7f83f4106d7f05c851c531f232a156c2e49654d8a60cf40a680c1ba58b8043c3"
+    }
+  },
+  "download_size": 176456247,
+  "features": {
+    "image_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "image_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "caption": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "story_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "album_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "license": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "original_bloom_language_tag": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "index_in_story": {
+      "dtype": "uint16",
+      "_type": "Value"
+    },
+    "image_path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "caption2": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 178636273,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 20823,
+      "num_examples": 58,
+      "dataset_name": "bloom-captioning"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 36845,
+      "num_examples": 52,
+      "dataset_name": "bloom-captioning"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 2122358,
+      "num_examples": 2913,
+      "dataset_name": "bloom-captioning"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
